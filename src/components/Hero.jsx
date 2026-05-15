@@ -59,8 +59,8 @@
 // export default Hero
 
 
-const GITHUB_URL = 'https://github.com/your-username'   // ← apna GitHub URL
-const RESUME_PATH = './resume/Durgesh_Resume.pdf'         // ← public/resume/ mein PDF rakho
+const GITHUB_URL = 'https://github.com/Mrprajapati18'   
+const RESUME_PATH = './resume/Durgesh_Resume.pdf'         
 
 const Hero = () => {
   return (
@@ -80,7 +80,7 @@ const Hero = () => {
         <p className="role">FULL STACK DEVELOPER</p>
 
         <div className="social-icons">
-          {/* ✅ GitHub icon - apna URL upar set karo */}
+         
           <a href={GITHUB_URL} target="_blank" rel="noreferrer">
             <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" />
           </a>
@@ -99,7 +99,7 @@ const Hero = () => {
         <h2 className="subtitle">Here&apos;s who I am &amp; what I do</h2>
 
         <div className="buttons">
-          {/* ✅ RESUME - click karo to PDF download hoga */}
+          
           <a
             href={RESUME_PATH}
             download="Durgesh_Prajapati_Resume.pdf"
