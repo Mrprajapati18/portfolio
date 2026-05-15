@@ -1,0 +1,156 @@
+.timeline-container {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0 40px;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(180deg, #00d4ff 0%, #7b2ff7 100%);
+  transform: translateX(-50%);
+}
+
+.timeline-row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  position: relative;
+  margin-bottom: 60px;
+  width: 50%;
+  padding-right: 60px;
+}
+
+.timeline-row.right {
+  justify-content: flex-start;
+  padding-right: 0;
+  padding-left: 60px;
+  margin-left: 50%;
+}
+
+.timeline-dot {
+  position: absolute;
+  right: -10px;
+  top: 28px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #00d4ff;
+  border: 3px solid #0f0f1e;
+  box-shadow: 0 0 10px rgba(0, 212, 255, 0.6);
+  z-index: 2;
+}
+
+.timeline-row.right .timeline-dot {
+  right: auto;
+  left: -10px;
+}
+
+.timeline-card {
+  background: #16162a;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 16px;
+  padding: 28px 28px 24px;
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.timeline-card:hover {
+  border-color: rgba(0, 212, 255, 0.3);
+  box-shadow: 0 8px 30px rgba(0, 212, 255, 0.12);
+  transform: translateY(-4px);
+}
+
+.card-period {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 14px;
+  text-transform: uppercase;
+}
+
+.period-icon {
+  width: 32px;
+  height: 32px;
+  background: rgba(0, 212, 255, 0.12);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  border: 1px solid rgba(0, 212, 255, 0.2);
+}
+
+.card-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+
+.card-company {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #00d4ff;
+  margin-bottom: 4px;
+}
+
+.card-location {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.4);
+  margin-bottom: 16px;
+}
+
+.card-points {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card-points li {
+  font-size: 0.88rem;
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 1.6;
+  padding-left: 18px;
+  position: relative;
+}
+
+.card-points li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: #00d4ff;
+  font-size: 0.75rem;
+  top: 2px;
+}
+
+@media (max-width: 768px) {
+  .timeline-line { left: 20px; }
+
+  .timeline-row,
+  .timeline-row.right {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 55px;
+    padding-right: 0;
+    justify-content: flex-start;
+  }
+
+  .timeline-dot,
+  .timeline-row.right .timeline-dot {
+    left: 12px;
+    right: auto;
+  }
+}
