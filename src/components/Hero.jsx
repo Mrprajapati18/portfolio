@@ -1,3 +1,6 @@
+
+const GITHUB_URL = 'https://github.com/your-username' 
+const RESUME_PATH = './resume/Durgesh_Resume.pdf'
 const Hero = () => {
   return (
     <section className="main-container" id="home">
