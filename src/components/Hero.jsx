@@ -1,5 +1,5 @@
 
-const GITHUB_URL = 'https://github.com/your-username' 
+const GITHUB_URL = 'https://github.com/Mrprajapati18' 
 const RESUME_PATH = './resume/Durgesh_Resume.pdf'
 const Hero = () => {
   return (
@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="left-card">
         <div className="profile-img">
           {/*
-            Apni Durgesh.png => portfolio/public/image/Durgesh.png mein rakho
+            
           */}
           <img
             src="./image/Durgesh.png"
