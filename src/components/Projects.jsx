@@ -1,5 +1,4 @@
 const projectsData = [
- 
    {
     img: './image/python.png',
     title: 'Data Science With Python',
