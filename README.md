@@ -8,14 +8,14 @@ portfolio/
 ├── vite.config.js
 ├── package.json
 ├── public/
-│   └── Logo.png          ← apna Logo.png yahan rakho
+│   └── Logo.png         
 └── src/
     ├── main.jsx
     ├── App.jsx
     ├── index.css
     ├── assets/
-    │   ├── Logo.png       ← apni logo image yahan rakho
-    │   └── Durgesh.png    ← apni profile photo yahan rakho
+    │   ├── Logo.png      
+    │   └── Durgesh.png   
     └── components/
         ├── Navbar.jsx
         ├── Hero.jsx
