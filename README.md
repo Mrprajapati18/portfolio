@@ -1,4 +1,4 @@
-# Durgesh Prajapati — Portfolio (React + Vite)
+# Durgesh Prajapati — Portfolio 
 
 ## Project Structure
 
@@ -8,14 +8,14 @@ portfolio/
 ├── vite.config.js
 ├── package.json
 ├── public/
-│   └── Logo.png          ← apna Logo.png yahan rakho
+│   └── Logo.png         
 └── src/
     ├── main.jsx
     ├── App.jsx
     ├── index.css
     ├── assets/
-    │   ├── Logo.png       ← apni logo image yahan rakho
-    │   └── Durgesh.png    ← apni profile photo yahan rakho
+    │   ├── Logo.png      
+    │   └── Durgesh.png   
     └── components/
         ├── Navbar.jsx
         ├── Hero.jsx
@@ -27,20 +27,20 @@ portfolio/
 
 ## Setup & Run
 
-### 1. Dependencies Install karo
+### 1. Dependencies Install 
 ```bash
 npm install
 ```
 
-### 2. Apni Images rakho
+### 2. Your Images 
 - `src/assets/Logo.png` — navbar logo
 - `src/assets/Durgesh.png` — profile photo
 
-### 3. Development Server Start karo
+### 3. Development Server Start 
 ```bash
 npm run dev
 ```
-Browser me open ho jayega: `http://localhost:5173`
+Open for Browser: `http://localhost:5173`
 
 ### 4. Production Build
 ```bash
@@ -49,8 +49,8 @@ npm run build
 
 ## Customization
 
-- **Personal info** update karo: `src/components/Hero.jsx`
-- **Skills** update karo: `src/components/Skills.jsx` me `skillsData` array
-- **Projects** update karo: `src/components/Projects.jsx` me `projectsData` array
-- **Contact links** update karo: `src/components/Contact.jsx` aur `src/components/Navbar.jsx`
-- **Styles** update karo: `src/index.css`
+- **Personal info** update : `src/components/Hero.jsx`
+- **Skills** update : `src/components/Skills.jsx` me `skillsData` array
+- **Projects** update: `src/components/Projects.jsx` me `projectsData` array
+- **Contact links** update: `src/components/Contact.jsx` aur `src/components/Navbar.jsx`
+- **Styles** update: `src/index.css`
