@@ -37,7 +37,7 @@ const Navbar = () => {
 
       <ul className={`nav-links${menuOpen ? ' active' : ''}`} id="navLinks">
         <li><a href="#home" onClick={(e) => handleScroll(e, '#home')}>Home</a></li>
-        <li><a href="#education" onClick={(e) => handleScroll(e, '#education')}>WorkExperience/Education</a></li>
+        <li><a href="#education" onClick={(e) => handleScroll(e, '#education')}>Experience/Education</a></li>
         <li><a href="#skills" onClick={(e) => handleScroll(e, '#skills')}>Skills</a></li>
         <li><a href="#projects" onClick={(e) => handleScroll(e, '#projects')}>Projects</a></li>
         <li><a href="#contact" onClick={(e) => handleScroll(e, '#contact')}>Contact</a></li>
