@@ -1,4 +1,4 @@
-# Durgesh Prajapati — Portfolio (React + Vite)
+# Durgesh Prajapati — Portfolio 
 
 ## Project Structure
 
