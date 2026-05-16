@@ -2,11 +2,6 @@
 
 const skillsData = [
 
-{
-  img: 'https://logosandtypes.com/wp-content/uploads/2021/01/microsoft-dynamics-365.svg',
-  title: 'Microsoft Dynamics Business Central',
-  desc: 'Expert in ERP solutions and business process automation using Dynamics 365 Business Central',
-},
   {
     img: 'https://cdn.worldvectorlogo.com/logos/dot-net-core-7.svg',
     title: '.NET Developer',
@@ -22,6 +17,11 @@ const skillsData = [
     title: 'Frontend Development',
     desc: 'Crafting responsive and modern user interfaces with HTML, CSS, JavaScript, and React',
   },
+  {
+  img: 'https://logosandtypes.com/wp-content/uploads/2021/01/microsoft-dynamics-365.svg',
+  title: 'Microsoft Dynamics Business Central',
+  desc: 'Expert in ERP solutions and business process automation using Dynamics 365 Business Central',
+},
   {
     img: 'https://cdn.worldvectorlogo.com/logos/selenium-1.svg',
     title: 'Selenium',

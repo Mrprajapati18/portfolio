@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer>
-      <p>&copy; Made with ❤ by Durgesh</p>
+      <p>&copy; 2026 Durgesh Kumar Prajapati.Built with passion and lots of ☕</p>
     </footer>
   )
 }
