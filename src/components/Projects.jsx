@@ -1,4 +1,5 @@
 const projectsData = [
+
    {
     img: './image/python.png',
     title: 'Data Science With Python',
@@ -31,7 +32,7 @@ const projectsData = [
     img: './image/react.png',
     title: 'React Developer',
     desc: 'Online Flower Booking Application for Celebration like Birthday, Ring Ceromeny, Anniversury',
-    tags: ['Recat', 'Java Script', 'Type Script', 'GitHub'],
+    tags: ['React', 'Java Script', 'Type Script', 'GitHub'],
     link: '#',
   },
 ]
@@ -43,8 +44,6 @@ const Projects = () => {
       <div className="projects-grid">
         {projectsData.map((project, index) => (
           <div className="project-card" key={index}>
-
-            {/* ✅ Icon hata — real logo banner */}
             <div
               className="project-image"
               style={{ background: project.bgColor }}
