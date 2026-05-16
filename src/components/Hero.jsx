@@ -19,7 +19,8 @@ const Hero = () => {
         </div>
 
         <h2 className="name">Durgesh Prajapati</h2>
-        <p className="role">FULL STACK DEVELOPER</p>
+        <p className="role">FULL STACK .NET DEVELOPER</p>
+        
 
         <div className="social-icons">
          

@@ -374,7 +374,7 @@ section {
   transform: scale(1.1);
 }
 
-/* =================== FOOTER =================== */
+
 footer {
   text-align: center;
   padding: 30px;
@@ -382,7 +382,7 @@ footer {
   margin-top: 50px;
 }
 
-/* =================== RESPONSIVE =================== */
+
 @media (max-width: 768px) {
   nav {
     padding: 20px 30px;
@@ -438,4 +438,19 @@ footer {
   .contact-wrapper {
     padding: 40px 30px;
   }
+}
+
+.project-link-btn {
+  display: inline-block;
+  margin-top: 15px;
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s;
+}
+
+.project-link-btn:hover {
+  color: #fff;
+  letter-spacing: 1px;
 }

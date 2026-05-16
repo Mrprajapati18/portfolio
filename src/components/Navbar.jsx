@@ -23,7 +23,7 @@ const Navbar = () => {
         />
       </div>
 
-      <p>Full Stack Developer</p>
+      <p>Full Stack .Net Developer/ERP Developer</p>
 
       <button
         className="menu-toggle"
