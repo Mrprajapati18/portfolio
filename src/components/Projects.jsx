@@ -1,42 +1,95 @@
 const projectsData = [
-  {
-    img: './image/python.png',          
-    bgColor: 'linear-gradient(135deg, #3776ab 0%, #1e5799 100%)',
+ 
+   {
+    img: './image/python.png',
     title: 'Data Science With Python',
     desc: 'Comprehensive Data Science with Python',
     tags: ['Python', 'Anaconda development tool', 'Kaggle'],
     link: '#',
   },
   {
-    img: './image/powerbi.png',        
-    bgColor: 'linear-gradient(135deg, #f2c811 0%, #e6a800 100%)',
+    img: './image/powerbi.png',
     title: 'Analytics Dashboard',
     desc: 'Interactive Power BI dashboard with real-time data visualization and insights',
     tags: ['Power BI', 'Power Apps', 'Data Analysis'],
     link: '#',
   },
-  {
-    img: './image/business-central.png', 
-    bgColor: 'linear-gradient(135deg, #0078d4 0%, #005a9e 100%)',
-    title: 'Business Central Solution',
-    desc: 'Complete ERP implementation with custom modules for inventory and financial management',
-    tags: ['Dynamics 365', 'AL Programming', '.NET'],
+ {
+    img: './image/business-central.png',
+    title: 'Microsoft D365 Business Central',
+    desc: ' ERP Data Management and Interactive dashboard with real-time data visualization and insights',
+    tags: ['AL Programming', 'Power Apps', 'SQL Server', 'Azure'],
     link: '#',
   },
   {
-    img: './image/selenium.png',        
-    bgColor: 'linear-gradient(135deg, #43b02a 0%, #2d7a1c 100%)',
+    img: './image/selenium.png',
     title: 'Sauce Demo WebUI Testing',
     desc: 'Comprehensive WebUI testing for SauceDemo application to ensure functionality, reliability, and user experience',
     tags: ['Selenium', 'Java', 'TestNG', 'Maven'],
     link: '#',
   },
   {
-    img: './image/react.png', 
-    bgColor: 'linear-gradient(135deg, #61dafb 0%, #0099cc 100%)',
+    img: './image/react.png',
     title: 'React Developer',
-    desc: 'Online Flower Booking Application for Celebration like Birthday, Ring Ceremony, Anniversary',
-    tags: ['React', 'JavaScript', 'TypeScript', 'GitHub'],
+    desc: 'Online Flower Booking Application for Celebration like Birthday, Ring Ceromeny, Anniversury',
+    tags: ['Recat', 'Java Script', 'Type Script', 'GitHub'],
     link: '#',
   },
 ]
+
+const Projects = () => {
+  return (
+    <section id="projects">
+      <h2 className="section-title">Featured Projects</h2>
+      <div className="projects-grid">
+        {projectsData.map((project, index) => (
+          <div className="project-card" key={index}>
+
+            {/* ✅ Icon hata — real logo banner */}
+            <div
+              className="project-image"
+              style={{ background: project.bgColor }}
+            >
+              <img
+                src={project.img}
+                alt={project.title}
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',        
+                  objectPosition: 'top',    
+                  display: 'block',
+                }}
+                onError={(e) => {
+                  e.target.style.display = 'none'
+                  e.target.parentElement.style.background =
+                    'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'
+                }}
+              />
+            </div>
+
+            <div className="project-content">
+              <h3>{project.title}</h3>
+              <p>{project.desc}</p>
+              <div className="project-tags">
+                {project.tags.map((tag, i) => (
+                  <span className="tag" key={i}>{tag}</span>
+                ))}
+              </div>
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noreferrer"
+                className="project-link-btn"
+              >
+                View Project →
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  )
+}
+
+export default Projects
