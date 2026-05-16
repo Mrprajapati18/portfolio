@@ -2,7 +2,7 @@ import './Eduction.css'
 
 const experiences = [
   {
-    period: 'APR 2025 – PRESENT',
+    period: 'March 2025 – PRESENT',
     title: 'Technical Consultant – Microsoft Dynamics 365 Business Central',
     company: 'Punjab Bulls Technology Pvt. Ltd.',
     location: 'Delhi | Remote',
@@ -16,8 +16,8 @@ const experiences = [
     ],
   },
   {
-    period: 'INTERNSHIP',
-    title: 'Manual & Automation Testing Intern',
+    period: 'APR 2024 – March 2025',
+    title: 'Manual & Automation Testing',
     company: 'KodNest Technologies Pvt. Ltd.',
     location: 'Bengaluru',
     points: [
@@ -41,7 +41,7 @@ const educations = [
     title: 'Diploma – Information Technology',
     company: 'Shri Ram Swaroop Memorial University',
     location: 'Lucknow, Uttar Pradesh',
-    points: [],
+     points: ['CGPA: 8.90'],
   },
 ]
 

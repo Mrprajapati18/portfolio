@@ -1,13 +1,12 @@
 
 const GITHUB_URL = 'https://github.com/Mrprajapati18'  
 const LINKEDIN_URL = 'https://www.linkedin.com/feed/'
-const RESUME_PATH = './resume/Durgesh_Resume.pdf'  
+const RESUME_PATH = '/resume/Durgesh_Resume.pdf'   
 
 
 const Hero = () => {
   return (
     <section className="main-container" id="home">
-      {/* LEFT PROFILE CARD */}
       <div className="left-card">
         <div className="profile-img">
           <img
